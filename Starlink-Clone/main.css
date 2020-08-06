@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Verdana, sans-serif;
+    color: white;
 }
 
 .main {
@@ -14,14 +16,35 @@
 
 .main header{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    height: 60px;
+    height: 120px;
 }
 
-.main .item img{
+.main header .item {
+    width: 300px;
+}
+.main header .item span{
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.main header .item a img{
     /* padding-top: 25px; */
     height: 25px;
     cursor: pointer;
-    display: block;
+}
+
+/* ahora sin el header */
+.main .main-logo{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.main .main-logo img{
+    display: flex;
+    width: 777px;
 }
