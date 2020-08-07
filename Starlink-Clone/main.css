@@ -12,25 +12,28 @@
     width: 100%;
     height: 1020px;
     text-align: center;
+    /* background-color: black; */
 }
 
-.main header{
+header{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 120px;
+    background-color: black;
 }
 
-.main header .item {
+header .item {
     width: 300px;
+    text-align: center;
 }
-.main header .item span{
+header .item span{
     cursor: pointer;
     text-decoration: none;
     font-size: 14px;
 }
 
-.main header .item a img{
+header .item a img{
     /* padding-top: 25px; */
     height: 25px;
     cursor: pointer;
@@ -41,7 +44,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    margin: 30px 0;
+    padding: 20px 0;
 }
 
 .main .main-logo img{
