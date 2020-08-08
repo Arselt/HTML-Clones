@@ -5,14 +5,18 @@
     color: white;
 }
 
+small{
+    color: #8d8d8d;
+}
+
 .main {
-    background-image: url(https://www.kolpaper.com/wp-content/uploads/2020/04/Earth-Surface-4K-Wallpaper.jpg);
+
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     height: 1020px;
     text-align: center;
-    /* background-color: black; */
+    background-color: black;
 }
 
 header{
@@ -40,14 +44,51 @@ header .item a img{
 }
 
 /* ahora sin el header */
-.main .main-logo{
+.main div{
     display: flex;
     justify-content: center;
     width: 100%;
-    padding: 20px 0;
+    padding: 42px 0;
 }
 
 .main .main-logo img{
     display: flex;
-    width: 777px;
+    width: 36%;
+}
+
+.main .main-register{
+    display: flex;
+    flex-direction: column;
+}
+
+.main .main-register li{
+    margin: 20px;
+    list-style: none;
+}
+
+.main .main-register input[type= text]{
+    width: 660px;
+    height: 50px;
+    background-color: #1f1f1f;
+    border: none;
+    color: #8d8d8d;
+    padding: 0 20px;
+    font-weight: bolder;
+    font-size: 16px;
+}
+
+.main .main-register input[type= button]{
+    background-color: black;
+    border: 2px solid #8d8d8d;
+    color: #8d8d8d;
+    width: 160px;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.main .main-register .main-down {
+    background-image: url(https://westernarmeniatv.com/wp-content/uploads/2020/03/5N327maEVv4GovKw2vgUbD.jpg);
+    height: 220px;
+    display: flex;
 }
